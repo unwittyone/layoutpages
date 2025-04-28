@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    border: 5px solid green;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.left_box {
+    border: 3px solid gray;
+    width: 150px;
+    height: 150px;
+}
+
+.right_box {
+    border: 3px solid gray;
+    width: 100px;
+    height: 100px;
+}
+
+.box-wrapper {
+    border: 3px solid purple;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
